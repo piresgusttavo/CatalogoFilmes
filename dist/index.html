@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - AluraFlix - </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <img src="https://i.imgur.com/1VUCBSv.png" class="page-logo" alt="">
+</div>
+
+<div id="abaPesquisa">
+  <p>Qual filme deseja pesquisar?</p>
+  <!-- Adicione uma caixa de pesquisa e um botão -->
+  <input type="text" id="inputFilme" placeholder="Digite o nome do filme">
+  <button type="button" onclick="pesquisarFilme()">Pesquisar</button>
+</div>
+
+<div>
+<button type="button" onclick="abrirCatalogo()" id="btnAbrirCatalogo">Abrir Catálogo</button>
+  
+<button type="button" onclick="voltarParaPaginaInicial()" id="btnVoltar" style="display: none;">Voltar à Página Inicial</button>
+  
+  <div id="filmes-container"></div>
+<a href="https://alura.com.br/" target="_blank">
+  
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</a>
+<footer>
+    <p>Este site utiliza a API do <a href="https://www.themoviedb.org/" target="_blank">The Movie DB</a>.<br>Criado por gustavopires.</p>
+  </footer>
+  
+<div id="catalogo"></div>
+  
+<style>
+  #abaPesquisa p {
+    color: white; /* Altere a cor conforme necessário */
+  }
+</style>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

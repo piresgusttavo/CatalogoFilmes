@@ -1,0 +1,98 @@
+body {
+  font-family: "Roboto Mono", Arial;
+  margin: 120px;
+  padding: 110px;
+  text-align: center;
+  min-height: 20vh;
+  background-image: url("https://img.freepik.com/free-vector/abstract-red-light-lines-pipe-speed-zoom-black-background-technology_1142-8936.jpg");
+  background-color: #060407;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  
+  catalogo {
+            text-align: center;
+        }
+
+        catalogo img {
+            width: 100px; /* Ajuste a largura conforme necessário */
+            margin: 5px; /* Espaço entre as imagens */
+            cursor: pointer;
+        }
+  
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+#listaFilmes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #white;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+   input[type="text"],
+    button {
+      padding: 8px;
+      margin: 2px 0;
+      width: 30%;
+      background-color: rgba(255, 255, 255, 0.3);
+      border: none;
+      color: #ffffff;
+      border-radius: 3px;
+      font-size: 0.9rem;
+    }
+
+    input[type="text"]::placeholder {
+      color: #ccc;
+    }
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  opacity: 0.5;
+  z-index: 1;
+  margin-top: 100px;
+}
+
+#btnAbrirCatalogo, #btnVoltar {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
